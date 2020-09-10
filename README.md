@@ -6,8 +6,8 @@
 
 | *Package* | *About* |
 |---------|-------|
-|[docs](https://github.com/Punctuality/Computational_Math_ITMO_2020/tree/master/core)|main utils|
-|[lab1](https://github.com/Punctuality/Computational_Math_ITMO_2020/tree/master/lab1)|lab work #1|
+|[docs](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/docs)|docs to the course|
+|[lab1](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab1)|lab work #1|
 
 ---
 
