@@ -194,6 +194,8 @@ read_word:
 		cmp r14, r15		; Check if not overflown
 		je .incorrect_ending
 
+		jmp .read_word_loop
+
 	.correct_ending:
 		mov byte[rdi + r14], null	; Append null symbol
 		
@@ -250,23 +252,23 @@ parse_uint:
 
 ; args: rdi = integer string repr address -> returns: rax - number, rdx - count of characters		
 parse_int:
-	xor rax, rax
-
 	cmp byte[rdi], minus	; Is negative?
 	je .parse_negative
-	call parse_uint
+	jmp parse_uint
 
 	.parse_negative:
 		inc rdi		; Skip minus
 		call parse_uint	; Parse as positive
 		
 		cmp rdx, 0	; If nothing, then do nothing
-		je .ending
+		je .error
 
 		neg rax		; Negate positively parsed rax
 		inc rdx		; Adjust char count with minus char
-	
-	.ending:
+		ret
+
+	.error:
+		xor rax, rax
 		ret
 
 ; args: rdi = string1 address, rsi = string2 address -> returns: rax = 1 (true) or rax = 0 (false)
