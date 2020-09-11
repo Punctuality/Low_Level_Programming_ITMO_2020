@@ -127,7 +127,7 @@ print_int:
 
 	pop rdi			; Restore initial value
 	neg rdi			; And negate it
-	jmp print_unit		; Print negated integer
+	jmp print_uint		; Print negated integer
 
 ; INPUT FUNCTIONS
 
