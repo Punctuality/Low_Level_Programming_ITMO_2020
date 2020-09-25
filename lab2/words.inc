@@ -27,4 +27,4 @@ colon "Fraud", fraud
 db "Eighth circle of HELL", 0
 
 colon "Treachery", treachery
-db "Nineth circle of HELL", 0
+db "Ninth circle of HELL", 0

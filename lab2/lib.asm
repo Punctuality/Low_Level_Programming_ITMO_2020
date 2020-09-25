@@ -73,7 +73,7 @@ print_char:
 
     	ret
 
-; args: rdi - pointer to the start of the string, r15 - where to write -> Side effect
+; args: rdi - pointer to the start of the string, r8 - where to write -> Side effect
 print_string:
 	xor rax, rax
 
@@ -84,7 +84,7 @@ print_string:
 	mov rsi, rdi		; WHAT to write
 	mov rdx, rax		; HOW MUCH to write
 	mov rax, system_write	; WHICH func to use
-	mov rdi, r15		; WHERE to write
+	mov rdi, r8		; WHERE to write
 	syscall 		; JUST DO IT
 
 	ret

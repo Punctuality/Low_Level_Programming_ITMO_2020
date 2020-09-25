@@ -1,8 +1,8 @@
-%define l 0
+%define last_address 0
 
 %macro colon 2
 %2:
-  dq l
+  dq last_address
   db %1, 0
-%define l %2
+%define last_address %2
 %endmacro
