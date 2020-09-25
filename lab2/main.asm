@@ -25,7 +25,7 @@ _start:
 	mov rsi, KEY_MAX_SIZE
 	sub rsp, KEY_MAX_SIZE
 	mov rdi, rsp
-	call readc_word			; Read key into rax
+	call read_word			; Read key into rax
 
 	test rax, rax			; Check if word is null or error?
 	je .reading_error_exit
