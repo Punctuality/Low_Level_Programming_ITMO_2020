@@ -9,6 +9,7 @@
 |[docs](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/docs)|docs to the course|
 |[lab1](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab1)|lab work #1|
 |[lab2](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab2)|lab work #2|
+|[lab3](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab3)|lab work #3|
 
 ---
 
