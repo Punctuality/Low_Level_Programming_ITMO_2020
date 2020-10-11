@@ -22,7 +22,9 @@ int is_prime(unsigned long n){
         return 0;
     } else {
         unsigned long checks;
-        for(checks = 2; checks < n; checks++) if (n % checks == 0LU) return 0;
+        for(checks = 2; checks < n; checks++)
+        if (n % checks == 0LU)
+            return 0;
     }
     
     return 1;
