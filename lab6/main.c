@@ -10,7 +10,6 @@
 #define PATH_TO_IMAGE_RES "images/lab6_result.bmp"
 #define ANGLE 45
 
-
 int main() {
     struct bmp_image* b_image;
     FILE* test;
