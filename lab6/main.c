@@ -8,7 +8,7 @@
 
 #define PATH_TO_IMAGE "images/lab6_test_big.bmp"
 #define PATH_TO_IMAGE_RES "images/lab6_result.bmp"
-#define ANGLE 45
+#define ANGLE 150
 
 int main() {
     struct bmp_image* b_image;
