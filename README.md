@@ -13,6 +13,7 @@
 |[lab4](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab4)|lab work #4|
 |[lab5](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab4)|lab work #5 (same a #4)|
 |[lab6](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab6)|lab work #6|
+|[lab7](https://github.com/Punctuality/Low_Level_Programming_ITMO_2020/tree/master/lab7)|lab work #7|
 ---
 
 #### Author: [Sergey Fedorov](https://github.com/Punctuality)  

@@ -16,7 +16,6 @@ struct movie{
 int main() {
 
     void* heap_start = NULL;
-
     void* big_mem_test = mem_malloc(MEMORY_CHUNK * 3);
 
     heap_start = (char*) big_mem_test - sizeof(struct mem);
