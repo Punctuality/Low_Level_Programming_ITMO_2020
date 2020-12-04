@@ -41,7 +41,7 @@ void* mem_malloc(size_t query) {
         if (last_ptr != NULL) last_ptr->next = ptr;
 
         if ((long long) ptr->capacity - (long long) query - (long long) sizeof(struct mem) > 0) {
-            end = (struct mem*) (((char*) ptr) + sizeof(struct mem) + query); // TODO Brackets
+            end = (struct mem*) (((char*) ptr) + sizeof(struct mem) + query);
             end->next = NULL;
             end->capacity = ptr->capacity - query - sizeof(struct mem);
             end->is_free = 1;
@@ -57,7 +57,7 @@ void* mem_malloc(size_t query) {
 void mem_free(void* mem) {
     mem = (char*) mem - sizeof(struct mem);
     ((struct mem*) mem)->is_free = 1;
-    align_mem(); // TODO Resolve free
+    align_mem();
 }
 
 void* heap_init(size_t initial_size) {
