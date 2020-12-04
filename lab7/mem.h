@@ -9,7 +9,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#define HEAP_START ((void*) 0x04040000)
+#define HEAP_START ((void*) 0x04321000)
 #define MEMORY_CHUNK 4 * 1024 * 1024 // 4Kb
 
 struct mem;
