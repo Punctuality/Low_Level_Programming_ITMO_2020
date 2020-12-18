@@ -1,6 +1,6 @@
 CC=gcc
 ASM=nasm
-CFLAGS=-std=gnu99 -Iinclude -lm
+CFLAGS=-std=gnu99 -lm
 AFLAGS=-felf64
 
 all: run
